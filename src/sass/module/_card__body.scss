@@ -1,0 +1,16 @@
+@use "global" as *;
+.card__body {
+  padding: rem(15);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.card__body > *:last-child {
+  margin-bottom: 0;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

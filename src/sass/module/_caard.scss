@@ -1,0 +1,9 @@
+@use "global" as *;
+.card {
+  //   box-shadow: rem(0) rem(3) rem(6) rgba(0, 0, 0, 0.16);
+  box-shadow: rem(0) rem(3) rem(6) rgba(255, 0, 0, 0.16);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

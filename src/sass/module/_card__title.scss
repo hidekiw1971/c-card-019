@@ -1,0 +1,10 @@
+@use "global" as *;
+.card__title {
+  margin-bottom: rem(5);
+  font-size: rem(18);
+  font-weight: $bold;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
