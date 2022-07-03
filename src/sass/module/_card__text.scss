@@ -1,6 +1,12 @@
 @use "global" as *;
 .card__text {
-  color: #777;
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: $normal;
+  font-size: rem(16);
+  line-height: 1.4375;
+  color: #000000;
+  transition: $slow;
   @include mq(md) {
   }
   @include mq(xl) {
